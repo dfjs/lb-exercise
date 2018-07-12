@@ -1,0 +1,37 @@
+/* TickerInfo */
+
+.TickerInfo {
+  margin-left: 20px;
+}
+
+.TickerInfo__table {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+}
+
+.TickerInfo__table--loading {
+  opacity: .4;
+}
+
+.TickerInfo__table-cell {
+  padding: 10px;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.TickerInfo__table-cell--header {
+  text-align: left;
+}
+
+.TickerInfo__loading,
+.TickerInfo__error,
+.TickerInfo__last-updated {
+  padding: 10px;
+  opacity: .5;
+  font-size: .9em;
+}
+
+.TickerInfo__error {
+  color: red;
+}

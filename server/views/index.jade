@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h1= title
+  h3 Endpoints available:
+  ul
+    li Bitstamp
+      ul
+        li Get Ticker for Currency Pair
+          ul
+            li
+              pre /api/bitstamp/ticker/:currencyPair
+    li CoinMarketCap
+      ul
+        li Get History for Currency
+          ul
+            li
+              pre /api/coinmarketcap/currency/:currency/history

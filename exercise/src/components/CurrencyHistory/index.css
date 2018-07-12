@@ -1,0 +1,22 @@
+.CurrencyHistory {
+  position: relative;
+  min-height: 235px;
+}
+
+.CurrencyHistory__error,
+.CurrencyHistory__loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+
+  padding: 10px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px #0000006e;
+}
+
+.CurrencyHistory__error {
+  color: red;
+  background: rgba(255, 85, 81, 0.26);
+}
